@@ -124,23 +124,11 @@ It matches directly to respective Blue Prism API endpoint - [`Create work queue 
 2. Populate **Authentication section** as described in the [respective section](#authentication).
 3. In the **Configuration** section set **Blue Prism API base URL** field. E.g., `http://my.bp.host.com:9876`.
 4. In the **Input** section, set **Work queue ID**. This is the identifier of a queue, where item will be fetched from.
-5. In the **Input** section, set **Data** that you want to pass together with the item. The **Data** has to comply with the Blue Prism API, and should contain the following semantics:
-
-```json
-{
-  rows: [
-    {
-      "valueType": "Text", #  Enum: "Binary" "Collection" "Date" "Flag" "Image" "Number" "Password" "Text" "Time" "TimeSpan"
-      "value": "your value"
-    },
-    ...
-  ]
-}
-```
-
-6. In the **Input** section, set **Defer date**. This field is the earliest time and date that this item is deferred until.
-7. In the **Input** section, set **Priority**. This field is the priority value assigned to the item.
-8. In the **Input** section, set **Status**. This is the user-supplied status value. _Note: please don't confuse it with queue item 'state' property._
+5. In the **Input** section, set **Item type** of the data entry you wish to submit to the queue.
+6. In the **Input** section, set **Item value** of the data entry you wish to submit to the queue.
+7. In the **Input** section, set **Defer date**. This field is the earliest time and date that this item is deferred until.
+8. In the **Input** section, set **Priority**. This field is the priority value assigned to the item.
+9. In the **Input** section, set **Status**. This is the user-supplied status value. _Note: please don't confuse it with queue item 'state' property._
 
 #### Create work queue item response
 
