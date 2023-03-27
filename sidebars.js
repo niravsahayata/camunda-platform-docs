@@ -184,6 +184,7 @@ module.exports = {
                 "components/modeler/bpmn/script-tasks/script-tasks",
                 "components/modeler/bpmn/send-tasks/send-tasks",
                 "components/modeler/bpmn/manual-tasks/manual-tasks",
+                "components/modeler/bpmn/undefined-tasks/undefined-tasks",
               ],
             },
             {
@@ -521,7 +522,7 @@ module.exports = {
     },
   ],
   "APIs & Tools": [
-    "apis-clients/working-with-apis-tools",
+    "apis-tools/working-with-apis-tools",
     {
       APIs: [
         "apis-clients/public-api",
@@ -666,6 +667,7 @@ module.exports = {
     "reference/overview",
     "reference/glossary",
     "reference/announcements",
+    "reference/release-notes",
     "reference/licenses",
     "reference/notices",
     "reference/release-policy",
