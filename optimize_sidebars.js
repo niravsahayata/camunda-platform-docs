@@ -1707,11 +1707,16 @@ module.exports = {
     },
 
     {
-      "Web Modeler (Beta)": [
+      "Web Modeler": [
         docsLink(
           "Installation",
           "self-managed/modeler/web-modeler/installation/"
         ),
+        docsLink(
+          "Configuration",
+          "self-managed/modeler/web-modeler/configuration/"
+        ),
+        docsLink("API access", "self-managed/modeler/web-modeler/api/"),
       ],
     },
 
