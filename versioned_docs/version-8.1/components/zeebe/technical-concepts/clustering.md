@@ -14,7 +14,7 @@ In this network, all brokers have the same responsibilities and there is no sing
 
 Zeebe implements the [gossip protocol](https://en.wikipedia.org/wiki/Gossip_protocol) to know which brokers are currently part of the cluster.
 
-The cluster is bootstrapped using a set of well-known bootstrap brokers, to which the others can connect. To achieve this, each broker must have at least one bootstrap broker as its initial contact point in their configuration:
+The cluster is bootstrapped using a set of well-known bootstrap brokers, to which the others can connect. To achieve this, each cluster must have at least one bootstrap broker as its initial contact point in their configuration:
 
 ```yaml
 ---
